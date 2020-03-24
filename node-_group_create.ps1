@@ -1,0 +1,14 @@
+yc managed-kubernetes node-group create `
+ --name kubectl-test-group `
+ --cluster-name k8s-test-cluster `
+ --platform-id standard-v1 `
+ --location subnet-name=default-ru-central1-a,zone=ru-central1-a `
+ --public-ip `
+ --cores 2 `
+ --memory 4 `
+ --core-fraction 20 `
+ --disk-type network-hdd `
+ --disk-size 64 `
+ --fixed-size 4 `
+ --version 1.13 `
+ --daily-maintenance-window start=22:00,duration=10h

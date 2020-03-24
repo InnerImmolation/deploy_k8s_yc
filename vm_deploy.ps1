@@ -2,7 +2,7 @@ $node_list = 'master-node-yc-cluster', 'slave-1-yc-cluster', 'slave-2-yc-cluster
 $zone = 'ru-central1-a'
 $network_interface = 'subnet-name=default-ru-central1-a'
 $boot_disk =  'image-folder-id=standard-images,image-family=ubuntu-1604-lts'
-$ssh_key = 'C:\Users\dmitry.dubovtsev\Downloads\Telegram Desktop\yc_pub_key'
+$ssh_key = 'C:\Users\InnerImmolation\Desktop\putty\pub_key_yc'
 $cores = 2
 $memory = 4
 
